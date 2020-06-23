@@ -240,4 +240,5 @@ input[type=submit]:hover {
     color: white;
     border-top: 8px solid #4aaaa5;
     height: 40px;
+    padding-top: 5px;
 }
