@@ -22,9 +22,12 @@ h1,h2,h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
 }
-/* p:last-child{
+#prjLink{
+    color: #4aaaa5;
+}
+p:last-child{
     margin-bottom: 0;
-} */
+}
 .mainHeader {
     /* position: fixed; */
     height: 100px;
@@ -51,19 +54,12 @@ h1,h2,h3{
     background: #4aaaa5;
 }
 /* link section */
-#navBar {
-    display: inline-block;
-    /* position: absolute; */
-    margin-left: 150px;
-    margin-top: 40px;
-    left: 940px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 21px;
-    color: #777777;
-}
 li a{
     color: #777777;
     text-decoration: none;
+}
+#navLink{
+    padding: 20px;
 }
 a:visited {
     color: red;
@@ -110,7 +106,7 @@ a:hover {
 .content p {
     margin: 0;
     overflow: auto;
-}
+} 
 /*=====================================================================*/
 #contactMe {
     width: 960px;
@@ -178,7 +174,7 @@ input[type=submit]:hover {
     margin-left: 30px;
     border-bottom: 4px solid #dddddd;
 }
-/* .box {
+.box {
     width: 93%;
     overflow: hidden;
     background: skyblue;
@@ -196,7 +192,7 @@ input[type=submit]:hover {
     width: 20%;
     background-color: red;
     margin: 40px 30px 0px 40px;
-} */
+}
 #mainSection{
     padding-top: 130px;
     min-height: calc(100vh - 70px);
@@ -207,10 +203,12 @@ input[type=submit]:hover {
     margin: 0 auto;
     clear: both;
 }
+
 .myWork{
     position: relative;
     float: left;
-    width: 300px;
+    width: 458px;
+    height: 270px;
     overflow: auto;
     margin: 20px 0 25px;
 }
@@ -234,7 +232,6 @@ input[type=submit]:hover {
     text-align: center;
     background: #4aaaa5;
 }
-
 #footer {
     background-color:#666666;
     clear: both;
