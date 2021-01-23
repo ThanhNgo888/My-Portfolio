@@ -1,9 +1,7 @@
 Building my responsive portfolio using html, css and bootstrap css framework technologies. Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. 
 
-click here to check out:
-My portfolio: https://github.com/ThanhNgo888/My-Portfolio
+click here to check out: my projects
 
-My projects: 
 Code Quiz App: https://thanhngo888.github.io/APIs-Code-Quiz-UW/quiz.html
 
 Note Taker: https://note-taker-hw11.herokuapp.com
