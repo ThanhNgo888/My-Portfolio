@@ -1,5 +1,6 @@
 Building my responsive portfolio using html, css and bootstrap css framework technologies. Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. 
 
+click here to see my porfolio: https://thanhngo888.github.io/My-Portfolio/
 click here to check out: my projects
 
 Code Quiz App: https://thanhngo888.github.io/APIs-Code-Quiz-UW/quiz.html
