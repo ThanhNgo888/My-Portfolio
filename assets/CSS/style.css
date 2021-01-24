@@ -52,6 +52,53 @@ main{
   }
 }
 /* end nav bar */
+/* CONNECT WITH ME CSS */
+.connect-header{
+  /* Typography */
+  font-size: 25px;
+}
+.connect-photo{
+  /* Box-model */
+  width: 55px;
+  height: 55px;
+}
+#images{
+  /* Box-model */
+  padding-top: 15px;
+
+  /* Typography */  
+  text-align: center;
+}
+/* end connect me with css */
+/* begin footer */
+.footer{
+  
+}
+/* =========================== */
+#about-image{
+  /* positioning */
+  float: left;
+
+  /* Box-model */
+  width: 200px;
+  margin: 0 20px 10px 0;
+}
+/* end about me page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* *{
