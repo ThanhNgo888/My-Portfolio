@@ -72,9 +72,37 @@ main{
 /* end connect me with css */
 /* begin footer */
 .footer{
-  
+  /* positioning */
+  position: absolute;
+  bottom: 0;
+
+  /* Box-model */
+  width: 100%;
+  height: 60px;
+
+  /* Visual */
+background-color:#949997;
 }
+.text-muted-footer{
+  /* Box-model */
+  margin-top: 15px;
+
+  /* Typography */
+  columns: #ffffff;  
+}
+.two-toned-footer-color{
+  /* box-model */
+  height: 6px;
+  padding-top: 3px;
+
+  /* visual */
+  background-color: teal;
+}
+/* end footer */
+/* end styles for all pages */
 /* =========================== */
+/* page specific styles */
+/* about me page */
 #about-image{
   /* positioning */
   float: left;
