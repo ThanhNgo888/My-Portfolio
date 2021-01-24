@@ -5,6 +5,53 @@ body{
   /* Visual */
   background-image: url(../images/backgroundImage.jpg);
 }
+html{
+  /* Positioning */
+  position: relative;
+
+  /* Box-model */
+  min-height: 100%;
+}
+/* add space for fixed nav */
+main{
+  margin: 80px 0;
+}
+/* create sytles for use for all white main boxes */
+.block{
+  padding: 30px;
+}
+.block-header{
+  /* Typography */
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+/* nav bar */
+#logo{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  /* Typography */
+  font: size 24px;
+  font-weight: bold;
+  color: #fff;
+  /* Visual */
+  background:#4aaaa5;
+}
+/* override bootstrap hover color and border */
+.navbar-default .navbar-nav > li a:hover{
+  color: #4aaaa5;
+}
+.navbar{
+  background: white;
+  border: none;
+}
+/* media query for nav background color change */
+@media only screen and (max-width: 767px){
+  .navbar-header{
+    background-color: teal;
+  }
+}
+/* end nav bar */
 
 
 /* *{
